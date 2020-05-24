@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2012-06 on brianjriddle</title>
+    <link>http://brianjriddle.riddle.se/posts/2012-06/</link>
+    <description>Recent content in 2012-06 on brianjriddle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>se</language>
+    <lastBuildDate>Fri, 01 Jun 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://brianjriddle.riddle.se/posts/2012-06/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nokogiri has spoiled me</title>
+      <link>http://brianjriddle.riddle.se/posts/2012/06/nokogiri-has-spoiled-me/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2012/06/nokogiri-has-spoiled-me/</guid>
+      <description>My adventures in the wonderful world of JAXB took an abrupt end a couple days after my last post. After the work I had put into trying to get a sensible way to generate the XSD&amp;rsquo;s and java JAXB classes to parse a web service I had to go back to the drawing board as it did not survive the first contact with reality.
+A couple of factors lead to giving up my first approach.</description>
+    </item>
+    
+  </channel>
+</rss>

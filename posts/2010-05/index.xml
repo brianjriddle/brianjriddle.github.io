@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2010-05 on brianjriddle</title>
+    <link>http://brianjriddle.riddle.se/posts/2010-05/</link>
+    <description>Recent content in 2010-05 on brianjriddle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>se</language>
+    <lastBuildDate>Sat, 29 May 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://brianjriddle.riddle.se/posts/2010-05/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>books spring 2010</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/05/books-spring-2010/</link>
+      <pubDate>Sat, 29 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/05/books-spring-2010/</guid>
+      <description>I have not given myself enough time to write here as I have gone into a pretty intense reading period. Here&amp;rsquo;s the short list of what I have read in the last 6 months. In no specific order. Slowly working my way through Isaac Asimov&amp;rsquo;s galactic empire series. Pimp and the alchemist are books I got from the various blogs/twitter feeds I read. The c programming language is the only &amp;ldquo;programming book&amp;rdquo; since ruby best practices but looks like more are to come :)</description>
+    </item>
+    
+  </channel>
+</rss>

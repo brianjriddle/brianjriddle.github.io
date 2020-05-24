@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>nokogiri has spoiled me &middot; brianjriddle</title>
+    
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="http://brianjriddle.riddle.se/index.xml" rel="alternate" type="application/rss+xml" title="brianjriddle" />
+</head>
+<body>
+        <div id="container"><div id="container">
+    <header>
+        <h1>brianjriddle</h1>
+        <nav>
+            <div class="site-nav">
+                <a class="site-nav-item" href="/">home</a>
+                <a class="site-nav-item" href="/about/">about</a>
+                <a class="site-nav-item" href="/contact/">contact</a>
+                <a class="site-nav-item" href="/posts/">posts</a>
+                <a class="site-nav-item" href="/presentations/">presentations</a>
+            </div>
+        </nav>
+    </header>
+</div>
+<div id="content">
+                <div class="main">
+<article>
+    <header>
+        <time datetime="2012-06-01T00:00:00Z"> 1 Jun 2012</time>
+    </header>
+    <div id="main">
+        <p>My adventures in the wonderful world of JAXB took an abrupt end a couple days after my last post.
+After the work I had put into trying to get a sensible way to generate the XSD&rsquo;s and java JAXB classes
+to parse a web service I had to go back to the drawing board as it did not survive the first contact
+with reality.</p>
+<p>A couple of factors lead to giving up my first approach.</p>
+<ol>
+<li>The web service return <em>mostly</em> the same XML depending on what it was given.</li>
+<li>A complete XSD was not available so even generating XSD from examples would not work.</li>
+</ol>
+<p>So going back to the drawing board, a little googling , and taking a hint that I picked up from
+<a href="https://twitter.com/#!/samnewman">Sam Newman</a>. I decided to forgo all frameworks/annotations and go
+XPath all the way. I mean for god&rsquo;s sake all I want/need is to take an input stream and search through
+a document and scrape out values in pretty much the same way I have done with ruby via REXML and
+<a href="http://nokogiri.org/">nokogiri</a>.</p>
+<p>So how hard could it be? Not that hard it turns out.  This is what I came up with</p>
+<script type="application/javascript" src="https://gist.github.com/2854382/XmlDataReader.java.js"></script>
+
+<p>It&rsquo;s used like this:</p>
+<script type="application/javascript" src="https://gist.github.com/2854382/Asset.java.js"></script>
+
+<p>Using XPath made me much less sensitive to the XML that the web service I am consuming and
+made it easy to test.  One improvement I am going to make soon to this is that a method for each of the
+different XPathConstants. There are only 5 different data types xpathExpression.evaluate can return
+and the clarity that it will bring to the API is well worth it.</p>
+
+    </div>
+</article>
+
+                </div>
+            </div><footer>
+powered by <a href="http://gohugo.io/">hugo</a>
+  <div class="meta">
+      <span class="author"><a href="http://brianjriddle.riddle.se">brianjriddle</a></span>
+      <span>copyright 2020</span>
+  </div>
+</footer>
+</div>
+    </body>
+</html>

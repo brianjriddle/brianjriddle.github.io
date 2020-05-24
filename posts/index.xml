@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on brianjriddle</title>
+    <link>http://brianjriddle.riddle.se/posts/</link>
+    <description>Recent content in Posts on brianjriddle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>se</language>
+    <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://brianjriddle.riddle.se/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>java these days</title>
+      <link>http://brianjriddle.riddle.se/posts/2015/11/java-these-days/</link>
+      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2015/11/java-these-days/</guid>
+      <description>Jag fick frågan har om dagen om j2ee mina tänker omkring detta. Jag måste erkänna att när jag började fundera på j2ee kom jag på hur lite jag faktiskt använder av detta alls nu förtiden. Ut över webapplikationer det är inte mycket tack vare spring och de tools som har vuxit fram de senaste 5 år.
+Hur som helst here it goes.
+Jag jobbar med &amp;ldquo;j2ee&amp;rdquo; dagligen men använder en extremt liten del av &amp;ldquo;j2ee&amp;rdquo; hos min nuvarande arbetsgivare.</description>
+    </item>
+    
+    <item>
+      <title>moving to hugo</title>
+      <link>http://brianjriddle.riddle.se/posts/2015/04/moving-to-hugo/</link>
+      <pubDate>Sat, 04 Apr 2015 15:45:07 +0200</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2015/04/moving-to-hugo/</guid>
+      <description>since i started blogging a little over 5 years ago i have used jekyll to render this blog. jekyll is a static blog engine that allows one to write post in markdown. Since i don&amp;rsquo;t blog that much it was a small yak shave every time i did blog as jekyll changed enough in the times between eẃhen i did blog as it was a slight hassle.
+A couple of weeks ago I was helping a colleague get a small interal blog set up but the amount of frustration we had getting it up and running was way more than was necessary.</description>
+    </item>
+    
+    <item>
+      <title>life without a smart phone</title>
+      <link>http://brianjriddle.riddle.se/posts/2014/10/life-without-a-smart-phone/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2014/10/life-without-a-smart-phone/</guid>
+      <description>I changed jobs recently and had to come to grips with not having a smart phone for the first time in 5+ years.
+I changed in the middle of summer just after Google I/O and before the iphone 6/6+ came out. I decided to wait and see which one I would get. In the mean time I decided to buy the simplest phone i could. The only requirement was that it was charged via micro usb.</description>
+    </item>
+    
+    <item>
+      <title>good bye google reader hello newsbeuter</title>
+      <link>http://brianjriddle.riddle.se/posts/2013/03/good-bye-google-reader-hello-newsbeuter/</link>
+      <pubDate>Sun, 24 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2013/03/good-bye-google-reader-hello-newsbeuter/</guid>
+      <description>I have been using google reader since at least december 2008. It was a great way to stay on top of the current event&amp;rsquo;s in my field as well as bloggers i find interesting. the biggest draw google reader had was that it was available on every platform i used since it used a web based interface which meant i could use it on computer at work, home and my mobile.</description>
+    </item>
+    
+    <item>
+      <title>nokogiri has spoiled me</title>
+      <link>http://brianjriddle.riddle.se/posts/2012/06/nokogiri-has-spoiled-me/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2012/06/nokogiri-has-spoiled-me/</guid>
+      <description>My adventures in the wonderful world of JAXB took an abrupt end a couple days after my last post. After the work I had put into trying to get a sensible way to generate the XSD&amp;rsquo;s and java JAXB classes to parse a web service I had to go back to the drawing board as it did not survive the first contact with reality.
+A couple of factors lead to giving up my first approach.</description>
+    </item>
+    
+    <item>
+      <title>jaxb, maven and shellscripts</title>
+      <link>http://brianjriddle.riddle.se/posts/2012/05/jaxb-maven-and-shellscripts/</link>
+      <pubDate>Sun, 06 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2012/05/jaxb-maven-and-shellscripts/</guid>
+      <description>The last day and half I have started a new project at work using java to parse a couple of different XML formats. I am building a small library to consume the XML output of a couple of web services. The formats themselves are nothing much to talk about but as this library needs to be in java and I can&amp;rsquo;t use ruby and nokogiri  to parse the XML I was left with trying to do this using the tools java has available.</description>
+    </item>
+    
+    <item>
+      <title>move to s3</title>
+      <link>http://brianjriddle.riddle.se/posts/2012/04/move-to-s3/</link>
+      <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2012/04/move-to-s3/</guid>
+      <description>It&amp;rsquo;s been a long time since anything appeared but hopefully that has changed as I have moved the hosting of this blog to S3. My current hosting provider was a big hinder for me to update this blog using FTP. Have been wanting to move to S3 since august 2011 as that&amp;rsquo;s when S3 made it possible to host static sites easy.
+Why didn&amp;rsquo;t I move to Wordpress or another blog system from jekyll?</description>
+    </item>
+    
+    <item>
+      <title>vim year 3</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/12/vim-year-3/</link>
+      <pubDate>Sat, 11 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/12/vim-year-3/</guid>
+      <description>This is the start of my third year with vim. Before that I used emacs for about 7 years almost daily. A couple things made me switch
+ I was using windows and I upgraded x-emacs one day and pretty much botch development environment I realized that I was using vi/vim everyday because I was Permanently connected to some server via ssh and it was time to get more efficient. I really needed to follow the use one editor and use it well from the pragmatic programmer.</description>
+    </item>
+    
+    <item>
+      <title>äntligen någon som kan kundtjänst</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/09/antligen-nagon-som-kan-kundtjanst/</link>
+      <pubDate>Tue, 07 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/09/antligen-nagon-som-kan-kundtjanst/</guid>
+      <description>jag var död trott idag och var inte redo att prata med sl direkt på morgonen så jag väntade till 3 att ringa. Efter mycket om och om fick jag prata med någon som kunde hjälpa mig. Han var extremt bemötande och efter några minuter fick jag hans personliga email och skickade in de uppgifter han behövde för att kunna avsluta denna sorglig kapital.
+Det som är så synd är att jag var tvungen att jaga ifatt folk för att för någon respons alls.</description>
+    </item>
+    
+    <item>
+      <title>välkomna till sl kundtjänst du prata med fru kafka</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/09/valkomna-till-sl-kundtjanst-du-prata-med-fru-kafka/</link>
+      <pubDate>Mon, 06 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/09/valkomna-till-sl-kundtjanst-du-prata-med-fru-kafka/</guid>
+      <description>ytterligare en dag jag fick använder åk remsan för att ta mig till och från jobbet. Tänkte att ringa till kundtjänst igen och kolla hur det går med mitt ärende men man måste ju jobba. Så jag väntade till jag kom hem och ringde till kund service. Det tog lite tid som de var säkert upptagen med annat. Till slut gick lycko hjulet min väg och jag fick prata med en människor.</description>
+    </item>
+    
+    <item>
+      <title>sl kund helvete</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/09/sl-kund-helvete/</link>
+      <pubDate>Sun, 05 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/09/sl-kund-helvete/</guid>
+      <description>senaste veckorna har jag haft en ganska märklig och frustrerande relation med sl. Först ska jag säga att jag har alltid gillat sl och för det mesta inte haft något att gnälla över. Jag kommer ursprungligen från USA och att slippa att köra bil till och från jobbet varje dag är underbärt. Jag har bott i Stockholm sen 99 och har kört bil till jobbet 2 gånger. Jag verkliga tyckte om att åka kommunalt.</description>
+    </item>
+    
+    <item>
+      <title>books spring 2010</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/05/books-spring-2010/</link>
+      <pubDate>Sat, 29 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/05/books-spring-2010/</guid>
+      <description>I have not given myself enough time to write here as I have gone into a pretty intense reading period. Here&amp;rsquo;s the short list of what I have read in the last 6 months. In no specific order. Slowly working my way through Isaac Asimov&amp;rsquo;s galactic empire series. Pimp and the alchemist are books I got from the various blogs/twitter feeds I read. The c programming language is the only &amp;ldquo;programming book&amp;rdquo; since ruby best practices but looks like more are to come :)</description>
+    </item>
+    
+    <item>
+      <title>prague day 2</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/03/prague-day-2/</link>
+      <pubDate>Sat, 20 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/03/prague-day-2/</guid>
+      <description>Today we got an early start which was good as we were before the curve most of the day as a result. The Charles bridge was desolate at 08:00. One of the nicest things about Prague is all the different architecture you can see just walking around in the old town and its surrounding areas. Everything from Gothic
+jugend
+cubist
+modern
+We were lucky to have a chance to see an exhibit of Alfons Muchas.</description>
+    </item>
+    
+    <item>
+      <title>prague</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/03/prague/</link>
+      <pubDate>Fri, 19 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/03/prague/</guid>
+      <description>march 19-21 I and Anneli took our first trip by ourselves in a long time. I really did not know what to expect as this is the first time traveling to central Europe and on top of that the first former communist country I have ever visited.
+We got a really early start taking a taxi at 05:15 on Friday morning for our flight at 08:00 but that got us to Prague by 10:00 and our hotel by 11:30.</description>
+    </item>
+    
+    <item>
+      <title>advanced tdd with uncle bob day three</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-uncle-bob-day-three/</link>
+      <pubDate>Wed, 17 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-uncle-bob-day-three/</guid>
+      <description>today more physics, TDD concepts and tools, adding new functions to hunt the wumpus. The first part of the morning we went over coverage and metrics. Here we looked at emma, crap4j and discussed The Braithwaite Correlation.
+The second part of the morning we looked at TDD vs BDD, GUI testing, legacy code, and convincing others to use TDD.
+TDD vs BDD came down to semantics and readability. Sure there are lots of devil in the detail but it comes down to a matter of style.</description>
+    </item>
+    
+    <item>
+      <title>advanced tdd with unclebob day two</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-unclebob-day-two/</link>
+      <pubDate>Tue, 16 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-unclebob-day-two/</guid>
+      <description>Today more physics and theory. The physics covered the speed of light and Einstein&amp;rsquo;s special and general relativity. TDD theory was about what makes a well behaved unit test ie F.I.R.S.T, test conventions (where to place them, how to name them). Where to place them unclebob likes to place them right next to the files being tested but most conventions (ie maven) place them in a separate directory. This is kinda a moot point as modern java editors can present a combined view of tests and packages.</description>
+    </item>
+    
+    <item>
+      <title>advanced tdd with unclebob day one</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-unclebob-day-one/</link>
+      <pubDate>Mon, 15 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-unclebob-day-one/</guid>
+      <description>The day started with our first lesson in quantum mechanics. If you have read anything of what unclebob has written before you know that he loves physics, space and starting with a tangential subject to start off any topic.
+After that we went introduce ourself name, language(java/c#/c++), our experiences with TDD our companies. From the introductions he mad a mind map and addressed the different subjects that came up such as &amp;ldquo;only me&amp;rdquo;, &amp;ldquo;TDD Taliban&amp;rdquo;, &amp;ldquo;bad legacy code&amp;rdquo;, &amp;ldquo;no TDD allowed&amp;rdquo;, etc.</description>
+    </item>
+    
+    <item>
+      <title>the stupidest thing i have done so far</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/the-stupidest-thing-i-have-done-so-far/</link>
+      <pubDate>Sun, 28 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/the-stupidest-thing-i-have-done-so-far/</guid>
+      <description>Today I did the stupidest thing I probably have ever done so far in my life. I would not say I competed as it took over 11 hours and the fastest time that day was somewhere around 5. I would have never had a chance to finish at all if it had not been for the support of family and friends before and during the race. Help was needed as I had never even stood on cross country skis before January 19, 2010 little more than 6 weeks before the 90k race.</description>
+    </item>
+    
+    <item>
+      <title>buildr jruby rake&#43;ant</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/buildr-jruby-rake-ant/</link>
+      <pubDate>Wed, 24 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/buildr-jruby-rake-ant/</guid>
+      <description>must be synchronicity but with in the last couple of days i have seen some new/old build tools for java. The first is jruby&amp;rsquo;s new rake and ant integration seen on engine yard&amp;rsquo;s blog. If you are using ant and jruby this looks like you can get the best of both worlds as you can call ant from rake and rake from ant. All with out getting swept away&amp;hellip;.
+The other build tool seen was when attended a presentation tonight on buildr given by Anders Janmyr at jayway&amp;rsquo;s office.</description>
+    </item>
+    
+    <item>
+      <title>the passionate-programmer</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/the-passionate-programmer/</link>
+      <pubDate>Mon, 22 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/the-passionate-programmer/</guid>
+      <description>finished the passionate programmer yesterday. It&amp;rsquo;s been 6 years since i read the pragmatic programmer and from what i remember of it the passionate programmer is a great companion book. This must be one of the first books i have read from some one that has had many different roles in the software industry. Chad Fowler has been a programmer, manager, CTO, headhunter and consultant.
+The chapters were quite short and focused with homework/tips/assignments at the end of most of the chapters.</description>
+    </item>
+    
+    <item>
+      <title>ruby best practices</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/ruby-best-practices/</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/ruby-best-practices/</guid>
+      <description>finished reading Gregory T. Brown&amp;rsquo;s ruby best practices. After reading programming ruby: the pragmatic programmers guide a couple of years ago and the ruby way in the spring of 2009 it&amp;rsquo;s definitely a worth while read and is going to be well thumbed threw.
+I really liked that the book started off with a whole chapter on unit testing. Chapters 2 and 3 were a little difficult but mainly because i don&amp;rsquo;t use ruby enough daily these chapters will definitely mean more study :).</description>
+    </item>
+    
+    <item>
+      <title>you have to start somewhere</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/you-have-to-start-somewhere/</link>
+      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/you-have-to-start-somewhere/</guid>
+      <description>Just finished reading stephen covey&amp;rsquo;s 7 habits of highly effective people. I was not prepared for what I had bought. I thought that I bought a book that was going to give me practical tools to be more productive.
+Luckily I could not have been more wrong. This book was more about basic internal characteristics that highly effective people have. It was the first self help book I had ever read.</description>
+    </item>
+    
+  </channel>
+</rss>

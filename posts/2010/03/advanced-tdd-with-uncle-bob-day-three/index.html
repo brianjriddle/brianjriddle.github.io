@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>advanced tdd with uncle bob day three &middot; brianjriddle</title>
+    
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="http://brianjriddle.riddle.se/index.xml" rel="alternate" type="application/rss+xml" title="brianjriddle" />
+</head>
+<body>
+        <div id="container"><div id="container">
+    <header>
+        <h1>brianjriddle</h1>
+        <nav>
+            <div class="site-nav">
+                <a class="site-nav-item" href="/">home</a>
+                <a class="site-nav-item" href="/about/">about</a>
+                <a class="site-nav-item" href="/contact/">contact</a>
+                <a class="site-nav-item" href="/posts/">posts</a>
+                <a class="site-nav-item" href="/presentations/">presentations</a>
+            </div>
+        </nav>
+    </header>
+</div>
+<div id="content">
+                <div class="main">
+<article>
+    <header>
+        <time datetime="2010-03-17T00:00:00Z">17 Mar 2010</time>
+    </header>
+    <div id="main">
+        <p>today more physics, TDD concepts and tools, adding new functions to hunt the wumpus.  The first part of the morning we went over coverage and metrics.  Here we looked at <a href="http://emma.sourceforge.net">emma</a>, <a href="http://www.crap4j.org">crap4j</a> and discussed <a href="http://peripateticaxiom.blogspot.com/2006/05/complexity-and-test-first-0.html">The Braithwaite Correlation</a>.</p>
+<p>The second part of the morning we looked at TDD vs BDD, GUI testing, legacy code, and convincing others to use TDD.</p>
+<p>TDD vs BDD came down to semantics and readability. Sure there are lots of devil in the detail but it comes down to a matter of style.</p>
+<p>GUI testing is not easy to do but by making direct calls to the APIs the GUI depends on <strong>without</strong> the GUI and testing the GUI <strong>without</strong> having the system behind it up (by stubbing it out).  You can get the GUI tested pretty well. You will still need to test the entire system but by separating the testing of the business rules and the GUI you minimize the amount of manual and fragile testing. As the GUI can change much faster than the business rules this works well.</p>
+<p>With legacy code a good start is reading <a href="http://www.amazon.co.uk/Working-Effectively-Legacy-Robert-Martin/dp/0131177052/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1268839826&amp;sr=8-1">working effectively with legacy code</a>. Legacy code defined as code with out test is 1) notoriously hard to test 2) get under test 3) going to take a long time to get good code coverage. You really need to practice the boy scout rule.  That means always leave the code better than when you found it.</p>
+<p>Convincing others to use TDD/BDD/testing at all is really <strong>really</strong> hard.  There is pretty much no point in trying to convince people that aren&rsquo;t will to listen.  What you can do is set an example as a professional by using TDD.</p>
+<p>The afternoon was the practical where we got to start to add internalization to the hunt the wumpus game.</p>
+<p>The physics covered to day was how white dwarves form, black holes and the big bang.</p>
+<p>I would really recommend anybody that is practicing TDD or has been to a beginner TDD course. I have really enjoyed the course and am glad to have the chance. It&rsquo;s going to take a couple of days for the full force of it to sink in but just the inspiration kick I have gotten is worth it.</p>
+
+    </div>
+</article>
+
+                </div>
+            </div><footer>
+powered by <a href="http://gohugo.io/">hugo</a>
+  <div class="meta">
+      <span class="author"><a href="http://brianjriddle.riddle.se">brianjriddle</a></span>
+      <span>copyright 2020</span>
+  </div>
+</footer>
+</div>
+    </body>
+</html>

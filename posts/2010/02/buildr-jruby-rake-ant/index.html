@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>buildr jruby rake&#43;ant &middot; brianjriddle</title>
+    
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="http://brianjriddle.riddle.se/index.xml" rel="alternate" type="application/rss+xml" title="brianjriddle" />
+</head>
+<body>
+        <div id="container"><div id="container">
+    <header>
+        <h1>brianjriddle</h1>
+        <nav>
+            <div class="site-nav">
+                <a class="site-nav-item" href="/">home</a>
+                <a class="site-nav-item" href="/about/">about</a>
+                <a class="site-nav-item" href="/contact/">contact</a>
+                <a class="site-nav-item" href="/posts/">posts</a>
+                <a class="site-nav-item" href="/presentations/">presentations</a>
+            </div>
+        </nav>
+    </header>
+</div>
+<div id="content">
+                <div class="main">
+<article>
+    <header>
+        <time datetime="2010-02-24T00:00:00Z">24 Feb 2010</time>
+    </header>
+    <div id="main">
+        <p>must be synchronicity but with in the last couple of days i have seen some new/old build tools for java.  The first is jruby&rsquo;s new rake and ant integration seen on <a href="http://www.engineyard.com/blog/2010/rake-and-ant-together-a-pick-it-n-stick-it-approach/">engine yard&rsquo;s blog</a>.  If you are using ant and jruby this
+looks like you can get the best of both worlds as you can call ant from rake and rake from ant. All with out getting swept away&hellip;.</p>
+<p>The other build tool seen was when attended a presentation tonight on <a href="http://buildr.apache.org/">buildr</a> given by Anders Janmyr at <a href="http://www.jayway.com/">jayway&rsquo;s office</a>.  buildr is a ruby based build system for java. It is trying to create a new build system for java that does not have the baggage from ant or maven.  It can use maven repos to retrieve dependency but needs to be explicitly told to retrieve transitive dependencies. This could be good could be bad.could keep you from having 3 copies of some libraries lying around.  buildr does have a nice syntax and ability to point out an archive be it .zip, .tar, .tgz and retrieve a library somewhere there in, cache it locally (somewhere under ~/.m2).</p>
+<p>Given that jruby is going to have ant integration with the upcoming 1.5 release it makes it hands down the much easier to install. Given both need a jvm the install requirements are a little more cumbersome for buildr as it can use a variety of methods to <a href="http://buildr.apache.org/installing.html">to install</a>.</p>
+
+    </div>
+</article>
+
+                </div>
+            </div><footer>
+powered by <a href="http://gohugo.io/">hugo</a>
+  <div class="meta">
+      <span class="author"><a href="http://brianjriddle.riddle.se">brianjriddle</a></span>
+      <span>copyright 2020</span>
+  </div>
+</footer>
+</div>
+    </body>
+</html>

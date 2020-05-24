@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2010-12 on brianjriddle</title>
+    <link>http://brianjriddle.riddle.se/posts/2010-12/</link>
+    <description>Recent content in 2010-12 on brianjriddle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>se</language>
+    <lastBuildDate>Sat, 11 Dec 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://brianjriddle.riddle.se/posts/2010-12/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vim year 3</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/12/vim-year-3/</link>
+      <pubDate>Sat, 11 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/12/vim-year-3/</guid>
+      <description>This is the start of my third year with vim. Before that I used emacs for about 7 years almost daily. A couple things made me switch
+ I was using windows and I upgraded x-emacs one day and pretty much botch development environment I realized that I was using vi/vim everyday because I was Permanently connected to some server via ssh and it was time to get more efficient. I really needed to follow the use one editor and use it well from the pragmatic programmer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>advanced tdd with unclebob day two &middot; brianjriddle</title>
+    
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="http://brianjriddle.riddle.se/index.xml" rel="alternate" type="application/rss+xml" title="brianjriddle" />
+</head>
+<body>
+        <div id="container"><div id="container">
+    <header>
+        <h1>brianjriddle</h1>
+        <nav>
+            <div class="site-nav">
+                <a class="site-nav-item" href="/">home</a>
+                <a class="site-nav-item" href="/about/">about</a>
+                <a class="site-nav-item" href="/contact/">contact</a>
+                <a class="site-nav-item" href="/posts/">posts</a>
+                <a class="site-nav-item" href="/presentations/">presentations</a>
+            </div>
+        </nav>
+    </header>
+</div>
+<div id="content">
+                <div class="main">
+<article>
+    <header>
+        <time datetime="2010-03-16T00:00:00Z">16 Mar 2010</time>
+    </header>
+    <div id="main">
+        <p>Today more physics and theory.  The physics covered the speed of light and Einstein&rsquo;s special and general relativity. TDD theory was about what makes a well behaved unit test ie <a href="http://agileinaflash.blogspot.com/2009_02_01_archive.html">F.I.R.S.T</a>, test conventions (where to place them, how to name them).
+Where to place them unclebob likes to place them right next to the files being tested but most conventions (ie <a href="http://maven.apache.org">maven</a>) place them in a separate directory. This is kinda a moot point as modern java editors can present a combined view of tests and packages. How to name them an interesting way that unclebob is using now is <strong>METHOD_WHEN_THEN</strong>.</p>
+<p>We spent some time discussing testing private and protected methods. Unclebob uses the following rules(guides) concerning testing private/protected methods</p>
+<ul>
+<li>don&rsquo;t test private or protected</li>
+<li>testing trumps privacy</li>
+<li>testing privates implies a design error</li>
+</ul>
+<p>As a rule he does not generally test private methods as the new method is public to begin with and after he adds tests/functionality to the public method he refactors out most of the public method so all the private methods are covered by test as the tests against the public methods exercise the refactored private methods.</p>
+<p>I had a little problem with starting with adding new functionality in a public method but I believe it is mainly because I have dealt with legacy code and have had as a rule to <strong>not</strong> change the interface of the class being changed.  When dealing with legacy code I think that starting with package protected is fine as the code I have been working in has had <strong>0</strong> to few tests so that changing the interface and adding a method that can be called outside of a specific scope is tough.  By doing this I am able to keep the interface stable while adding the ability to get code under test.  When and <strong>if</strong> the method becomes needs to be called in other packages or members of the class hierarchy it is then that I open up the methods.</p>
+<p>The last part of the day we started to cover fitness by correcting and implementing acceptance tests.</p>
+
+    </div>
+</article>
+
+                </div>
+            </div><footer>
+powered by <a href="http://gohugo.io/">hugo</a>
+  <div class="meta">
+      <span class="author"><a href="http://brianjriddle.riddle.se">brianjriddle</a></span>
+      <span>copyright 2020</span>
+  </div>
+</footer>
+</div>
+    </body>
+</html>

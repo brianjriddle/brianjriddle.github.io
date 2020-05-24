@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2012 on brianjriddle</title>
+    <link>http://brianjriddle.riddle.se/posts/2012/</link>
+    <description>Recent content in 2012 on brianjriddle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>se</language>
+    <lastBuildDate>Fri, 01 Jun 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://brianjriddle.riddle.se/posts/2012/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nokogiri has spoiled me</title>
+      <link>http://brianjriddle.riddle.se/posts/2012/06/nokogiri-has-spoiled-me/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2012/06/nokogiri-has-spoiled-me/</guid>
+      <description>My adventures in the wonderful world of JAXB took an abrupt end a couple days after my last post. After the work I had put into trying to get a sensible way to generate the XSD&amp;rsquo;s and java JAXB classes to parse a web service I had to go back to the drawing board as it did not survive the first contact with reality.
+A couple of factors lead to giving up my first approach.</description>
+    </item>
+    
+    <item>
+      <title>jaxb, maven and shellscripts</title>
+      <link>http://brianjriddle.riddle.se/posts/2012/05/jaxb-maven-and-shellscripts/</link>
+      <pubDate>Sun, 06 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2012/05/jaxb-maven-and-shellscripts/</guid>
+      <description>The last day and half I have started a new project at work using java to parse a couple of different XML formats. I am building a small library to consume the XML output of a couple of web services. The formats themselves are nothing much to talk about but as this library needs to be in java and I can&amp;rsquo;t use ruby and nokogiri  to parse the XML I was left with trying to do this using the tools java has available.</description>
+    </item>
+    
+    <item>
+      <title>move to s3</title>
+      <link>http://brianjriddle.riddle.se/posts/2012/04/move-to-s3/</link>
+      <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2012/04/move-to-s3/</guid>
+      <description>It&amp;rsquo;s been a long time since anything appeared but hopefully that has changed as I have moved the hosting of this blog to S3. My current hosting provider was a big hinder for me to update this blog using FTP. Have been wanting to move to S3 since august 2011 as that&amp;rsquo;s when S3 made it possible to host static sites easy.
+Why didn&amp;rsquo;t I move to Wordpress or another blog system from jekyll?</description>
+    </item>
+    
+  </channel>
+</rss>

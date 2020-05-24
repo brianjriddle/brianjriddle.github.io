@@ -1,0 +1,46 @@
+a {
+  text-decoration:        none;
+}
+
+body {
+  margin:                 0;
+  padding:                0;
+  color:                  black;
+  background:             white;
+  background-image:       url('/images/brian-right.png');
+  background-repeat:      no-repeat;
+  background-position:    top right;
+  background-attachment:  fixed;
+  font-family:            "Courier New", Monospace
+}
+
+footer {
+  font-size:              .75em;
+}
+
+#container {
+  max-width:              60em;
+  margin-left:            auto;
+  margin-right:           auto;
+}
+
+#main {
+  margin-left:            auto;
+  margin-right:           auto;
+  padding:                0 .5em;
+  display:                inline-block;
+}
+
+article {
+  line-height:            1.4em;
+  text-transform:         lowercase;
+}
+
+.title {
+  text-transform:         lowercase;
+}
+
+.site-nav-item {
+  display:                inline-block;
+  margin-right:           1.4em;
+}

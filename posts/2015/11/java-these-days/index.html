@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>java these days &middot; brianjriddle</title>
+    
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="http://brianjriddle.riddle.se/index.xml" rel="alternate" type="application/rss+xml" title="brianjriddle" />
+</head>
+<body>
+        <div id="container"><div id="container">
+    <header>
+        <h1>brianjriddle</h1>
+        <nav>
+            <div class="site-nav">
+                <a class="site-nav-item" href="/">home</a>
+                <a class="site-nav-item" href="/about/">about</a>
+                <a class="site-nav-item" href="/contact/">contact</a>
+                <a class="site-nav-item" href="/posts/">posts</a>
+                <a class="site-nav-item" href="/presentations/">presentations</a>
+            </div>
+        </nav>
+    </header>
+</div>
+<div id="content">
+                <div class="main">
+<article>
+    <header>
+        <time datetime="2015-11-26T00:00:00Z">26 Nov 2015</time>
+    </header>
+    <div id="main">
+        <p>Jag fick frågan har om dagen om j2ee mina tänker omkring detta. Jag måste erkänna att när jag började fundera på j2ee kom jag på hur lite jag faktiskt använder av detta alls nu förtiden. Ut över webapplikationer det är inte mycket tack vare spring och de tools som har vuxit fram de senaste 5 år.</p>
+<p>Hur som helst here it goes.</p>
+<p>Jag jobbar med &ldquo;j2ee&rdquo; dagligen men använder en extremt liten del av &ldquo;j2ee&rdquo; hos min nuvarande arbetsgivare. Det delen vi använder av oss mest (utöver spring för dependency injection) är Spring MVC och lite av Springs JDBCTemplate.</p>
+<p>Detta är den 4:e arbetsplats som har haft java som programmering språk och den är den förste som har ganska bra tänke på hur man ska bygger saker. Visst finns en del äldre kod som är inte lika väcker men allt kod som är skriven sedan nästan 4 år tillbaka ta mycket inspiration från Joshua Bloch&rsquo;s Effective Java 2nd edition.</p>
+<p>Särskilt den delen angående hur man skriver immutable kod via några design patterns som &ldquo;The Builder pattern&rdquo;. Det tog lite tid för mig att sätta mig i detta och det var mycket annorlunda än hur jag jobbade med java tidigare men vinsten med att slippa en del trådning problem är värt detta. En annan grej som är annorlunda är att det är mycket mindre ärv som vi använder. Väldigt sparsamt ska jag säga.</p>
+<p>Det som är kanske den är där vi har börjat att driva utveckling senaste tiden är mot microservices. Vi använder spring boot för det vi gör men det finns dropwizard.  Båda bygger man binär och sedan kör man som det är.</p>
+<p>Vi som många andra har börjat att använder angular som presentations teknik ansluten till vår microservices.</p>
+<p>Sedan mitten av oktober har vi använt Java 8 i alla projekt vi har. Det känns mycket roligare än det som java har varit den senaste 5-6 år.  Även om vissa av saker på minne man om hur det var när generics kom i java 5. Kull i början men kan spåra ut lätt&hellip;</p>
+<p>Hur som helst venkat subramaniam&rsquo;s book om functional programming är en bra överblick av functional programming i java idag. Denna <a href="https://github.com/winterbe/java8-tutorial">sida</a> är ganska bra om vad som har hant mellan java 7/8.</p>
+<p>Nedan är en link samling som bord har en bra start punkt om lite mer modern java. Det finns mer att skriva men om junit, maven, gradle,Saas till exampel <a href="http://www.heroku.com">heroku</a>,  continous integration, versionhantering, osv&hellip; men det är det kommer man i kontakt med så fort man börja att kolla några av dessa länkar.</p>
+<p><a href="https://spring.io/guides/">Spring Guides</a></p>
+<p>[Spring Mvc] (<a href="https://spring.io/guides/gs/serving-web-content/">https://spring.io/guides/gs/serving-web-content/</a>)</p>
+<p><a href="http://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683/ref=la_B001CDCVUG_1_1/175-2913365-2364429?s=books&amp;ie=UTF8&amp;qid=1448561821&amp;sr=1-1">Effective Java 2nd edition</a></p>
+<p><a href="https://pragprog.com/book/vsjava8/functional-programming-in-java">Functional Programming in Java</a></p>
+<p><a href="http://projects.spring.io/spring-boot/">Spring boot</a></p>
+<p><a href="http://www.dropwizard.io/0.9.1/docs/">Drop Wizard</a></p>
+<p><a href="https://jhipster.github.io/">Jhipster</a></p>
+<p><a href="https://www.youtube.com/watch?v=baVOGuFIe9M">Matt Raible&rsquo;s devoxx presentation om jhipster</a></p>
+<p><a href="https://angularjs.org/">Angularjs</a></p>
+<p><a href="http://samnewman.io/books/building_microservices/">Building Microservices</a></p>
+<p><a href="http://samnewman.io/blog/2015/11/23/backends-for-frontends-a-microservice-pattern/">Samman fattning av microservices i praktiken</a></p>
+
+    </div>
+</article>
+
+                </div>
+            </div><footer>
+powered by <a href="http://gohugo.io/">hugo</a>
+  <div class="meta">
+      <span class="author"><a href="http://brianjriddle.riddle.se">brianjriddle</a></span>
+      <span>copyright 2020</span>
+  </div>
+</footer>
+</div>
+    </body>
+</html>

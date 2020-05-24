@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2010-02 on brianjriddle</title>
+    <link>http://brianjriddle.riddle.se/posts/2010-02/</link>
+    <description>Recent content in 2010-02 on brianjriddle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>se</language>
+    <lastBuildDate>Sun, 28 Feb 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://brianjriddle.riddle.se/posts/2010-02/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>the stupidest thing i have done so far</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/the-stupidest-thing-i-have-done-so-far/</link>
+      <pubDate>Sun, 28 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/the-stupidest-thing-i-have-done-so-far/</guid>
+      <description>Today I did the stupidest thing I probably have ever done so far in my life. I would not say I competed as it took over 11 hours and the fastest time that day was somewhere around 5. I would have never had a chance to finish at all if it had not been for the support of family and friends before and during the race. Help was needed as I had never even stood on cross country skis before January 19, 2010 little more than 6 weeks before the 90k race.</description>
+    </item>
+    
+    <item>
+      <title>buildr jruby rake&#43;ant</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/buildr-jruby-rake-ant/</link>
+      <pubDate>Wed, 24 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/buildr-jruby-rake-ant/</guid>
+      <description>must be synchronicity but with in the last couple of days i have seen some new/old build tools for java. The first is jruby&amp;rsquo;s new rake and ant integration seen on engine yard&amp;rsquo;s blog. If you are using ant and jruby this looks like you can get the best of both worlds as you can call ant from rake and rake from ant. All with out getting swept away&amp;hellip;.
+The other build tool seen was when attended a presentation tonight on buildr given by Anders Janmyr at jayway&amp;rsquo;s office.</description>
+    </item>
+    
+    <item>
+      <title>the passionate-programmer</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/the-passionate-programmer/</link>
+      <pubDate>Mon, 22 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/the-passionate-programmer/</guid>
+      <description>finished the passionate programmer yesterday. It&amp;rsquo;s been 6 years since i read the pragmatic programmer and from what i remember of it the passionate programmer is a great companion book. This must be one of the first books i have read from some one that has had many different roles in the software industry. Chad Fowler has been a programmer, manager, CTO, headhunter and consultant.
+The chapters were quite short and focused with homework/tips/assignments at the end of most of the chapters.</description>
+    </item>
+    
+    <item>
+      <title>ruby best practices</title>
+      <link>http://brianjriddle.riddle.se/posts/2010/02/ruby-best-practices/</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://brianjriddle.riddle.se/posts/2010/02/ruby-best-practices/</guid>
+      <description>finished reading Gregory T. Brown&amp;rsquo;s ruby best practices. After reading programming ruby: the pragmatic programmers guide a couple of years ago and the ruby way in the spring of 2009 it&amp;rsquo;s definitely a worth while read and is going to be well thumbed threw.
+I really liked that the book started off with a whole chapter on unit testing. Chapters 2 and 3 were a little difficult but mainly because i don&amp;rsquo;t use ruby enough daily these chapters will definitely mean more study :).</description>
+    </item>
+    
+  </channel>
+</rss>

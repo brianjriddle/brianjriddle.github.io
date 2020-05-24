@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jaxb, maven and shellscripts &middot; brianjriddle</title>
+    
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="http://brianjriddle.riddle.se/index.xml" rel="alternate" type="application/rss+xml" title="brianjriddle" />
+</head>
+<body>
+        <div id="container"><div id="container">
+    <header>
+        <h1>brianjriddle</h1>
+        <nav>
+            <div class="site-nav">
+                <a class="site-nav-item" href="/">home</a>
+                <a class="site-nav-item" href="/about/">about</a>
+                <a class="site-nav-item" href="/contact/">contact</a>
+                <a class="site-nav-item" href="/posts/">posts</a>
+                <a class="site-nav-item" href="/presentations/">presentations</a>
+            </div>
+        </nav>
+    </header>
+</div>
+<div id="content">
+                <div class="main">
+<article>
+    <header>
+        <time datetime="2012-05-06T00:00:00Z"> 6 May 2012</time>
+    </header>
+    <div id="main">
+        <p>The last day and half I have started a new project at work using java to parse a couple of different XML formats. I am building a small library to consume the XML output of a couple of web services. The formats themselves are nothing much to talk about but as this library needs to be in java and I can&rsquo;t use ruby and <a href="http://www.nokogiri.org"> nokogiri </a> to parse the XML I was left with trying to do this using the tools java has available.</p>
+<p>This turned out to take a lot longer than was necessary as I thought that it should be pretty easy to create an XSD of the 3 formats I was going to consume and use xjc to generate classes from the XSD&rsquo;s. This is sounds pretty straight forward so I started a new project with maven. That should have been the first hint this was going to take awhile.</p>
+<p>First challenge was to create the XSD&rsquo;s from the 3 formats this had always been a challenge before as never could find a good tool that didn&rsquo;t cost an arm and a leg to take and XML and generate an XSD from it.  However one Google search later and the first hit turned up <a href="http://code.google.com/p/jing-trang/"> trang </a> and someone had created a homebrew formula for it so one</p>
+<pre><code>brew install trang
+</code></pre>
+<p>later and I could try it out</p>
+<pre><code>trang _site/atom.xml atom.xsd
+</code></pre>
+<p>which gives me an XSD of the <a href="http://brianjriddle.riddle.se/atom.xml">atom.xml</a> that looks like <a href="https://gist.github.com/2601250.js">atom.xsd</a></p>
+<p>I know a program that takes XML and creates even more XML but that&rsquo;s OK as first part is done.</p>
+<p>So next part is getting maven to generate a set of java classes to read this XML using JAXB so I can get my first test
+case to pass which is essentially</p>
+<pre><code>assertEquals(1, asset.getId());
+</code></pre>
+<p>Generating JAXB classes from an XSD is straight forward using xjc that comes with any of Oracles JDK starting from version 6.</p>
+<p>As this project was using maven I decide to see if there was a plugin I could use as I had a 3 XSD&rsquo;s in all to compile.
+That&rsquo;s were the problems began.  Turns out that none of the plugins to manage JAXB compilation can handle the case of
+three different XSD&rsquo;s that each had elements that could possibly overlap with each other. Such as an asset.xsd that
+defines a category element as well as an category.xsd that also defines a category element.</p>
+<p>Even without using the maven plugin and calling xjc directly didn&rsquo;t work. Trying to use a JAXB binding file for each
+XSD didn&rsquo;t work either even though the bindings files were generating the java classes in separate packages as the compiler
+wouldn&rsquo;t allow it.</p>
+<p>So maven wasn&rsquo;t helping and giving xjc everything at once was not working. I could generate everything by hand
+and but how to automate it? Well with a small shell script I could easily get everything I wanted - generate the xsd&rsquo;s from example
+xml and then generate with java classes with xjc.</p>
+<p>Well instead of the xml for the <a href="http://java.net/projects/maven-jaxb2-plugin/pages/Home">maven-jaxb-plugin</a> with all the extra jar
+files that sucks in to your project I ended up with this</p>
+<script type="application/javascript" src="https://gist.github.com/2601250/regenerate-jaxb-classes.sh.js"></script>
+
+<p>It may not scale well but it&rsquo;s certainly enough for what I need accomplished and it&rsquo;s somewhat automated.</p>
+<p>Sometimes it is a balance between being an <a href="http://web.archive.org/web/20051016203842/http://diveintomark.org/archives/2004/08/16/specs">asshole and a moron</a>.
+Working with maven you have to be the latter with out being too much of the former.</p>
+
+    </div>
+</article>
+
+                </div>
+            </div><footer>
+powered by <a href="http://gohugo.io/">hugo</a>
+  <div class="meta">
+      <span class="author"><a href="http://brianjriddle.riddle.se">brianjriddle</a></span>
+      <span>copyright 2020</span>
+  </div>
+</footer>
+</div>
+    </body>
+</html>
