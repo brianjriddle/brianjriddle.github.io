@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2013 on brianjriddle</title>
-    <link>http://brianjriddle.riddle.se/posts/2013/</link>
+    <link>http://brianjriddle.github.io/posts/2013/</link>
     <description>Recent content in 2013 on brianjriddle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>se</language>
     <lastBuildDate>Sun, 24 Mar 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://brianjriddle.riddle.se/posts/2013/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://brianjriddle.github.io/posts/2013/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>good bye google reader hello newsbeuter</title>
-      <link>http://brianjriddle.riddle.se/posts/2013/03/good-bye-google-reader-hello-newsbeuter/</link>
+      <link>http://brianjriddle.github.io/posts/2013/03/good-bye-google-reader-hello-newsbeuter/</link>
       <pubDate>Sun, 24 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2013/03/good-bye-google-reader-hello-newsbeuter/</guid>
+      <guid>http://brianjriddle.github.io/posts/2013/03/good-bye-google-reader-hello-newsbeuter/</guid>
       <description>I have been using google reader since at least december 2008. It was a great way to stay on top of the current event&amp;rsquo;s in my field as well as bloggers i find interesting. the biggest draw google reader had was that it was available on every platform i used since it used a web based interface which meant i could use it on computer at work, home and my mobile.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2010-03 on brianjriddle</title>
-    <link>http://brianjriddle.riddle.se/posts/2010-03/</link>
+    <link>http://brianjriddle.github.io/posts/2010-03/</link>
     <description>Recent content in 2010-03 on brianjriddle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>se</language>
     <lastBuildDate>Sat, 20 Mar 2010 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://brianjriddle.riddle.se/posts/2010-03/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://brianjriddle.github.io/posts/2010-03/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>prague day 2</title>
-      <link>http://brianjriddle.riddle.se/posts/2010/03/prague-day-2/</link>
+      <link>http://brianjriddle.github.io/posts/2010/03/prague-day-2/</link>
       <pubDate>Sat, 20 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2010/03/prague-day-2/</guid>
+      <guid>http://brianjriddle.github.io/posts/2010/03/prague-day-2/</guid>
       <description>Today we got an early start which was good as we were before the curve most of the day as a result. The Charles bridge was desolate at 08:00. One of the nicest things about Prague is all the different architecture you can see just walking around in the old town and its surrounding areas. Everything from Gothic
 jugend
 cubist
@@ -26,20 +26,20 @@ We were lucky to have a chance to see an exhibit of Alfons Muchas.</description>
     
     <item>
       <title>prague</title>
-      <link>http://brianjriddle.riddle.se/posts/2010/03/prague/</link>
+      <link>http://brianjriddle.github.io/posts/2010/03/prague/</link>
       <pubDate>Fri, 19 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2010/03/prague/</guid>
+      <guid>http://brianjriddle.github.io/posts/2010/03/prague/</guid>
       <description>march 19-21 I and Anneli took our first trip by ourselves in a long time. I really did not know what to expect as this is the first time traveling to central Europe and on top of that the first former communist country I have ever visited.
 We got a really early start taking a taxi at 05:15 on Friday morning for our flight at 08:00 but that got us to Prague by 10:00 and our hotel by 11:30.</description>
     </item>
     
     <item>
       <title>advanced tdd with uncle bob day three</title>
-      <link>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-uncle-bob-day-three/</link>
+      <link>http://brianjriddle.github.io/posts/2010/03/advanced-tdd-with-uncle-bob-day-three/</link>
       <pubDate>Wed, 17 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-uncle-bob-day-three/</guid>
+      <guid>http://brianjriddle.github.io/posts/2010/03/advanced-tdd-with-uncle-bob-day-three/</guid>
       <description>today more physics, TDD concepts and tools, adding new functions to hunt the wumpus. The first part of the morning we went over coverage and metrics. Here we looked at emma, crap4j and discussed The Braithwaite Correlation.
 The second part of the morning we looked at TDD vs BDD, GUI testing, legacy code, and convincing others to use TDD.
 TDD vs BDD came down to semantics and readability. Sure there are lots of devil in the detail but it comes down to a matter of style.</description>
@@ -47,19 +47,19 @@ TDD vs BDD came down to semantics and readability. Sure there are lots of devil 
     
     <item>
       <title>advanced tdd with unclebob day two</title>
-      <link>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-unclebob-day-two/</link>
+      <link>http://brianjriddle.github.io/posts/2010/03/advanced-tdd-with-unclebob-day-two/</link>
       <pubDate>Tue, 16 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-unclebob-day-two/</guid>
+      <guid>http://brianjriddle.github.io/posts/2010/03/advanced-tdd-with-unclebob-day-two/</guid>
       <description>Today more physics and theory. The physics covered the speed of light and Einstein&amp;rsquo;s special and general relativity. TDD theory was about what makes a well behaved unit test ie F.I.R.S.T, test conventions (where to place them, how to name them). Where to place them unclebob likes to place them right next to the files being tested but most conventions (ie maven) place them in a separate directory. This is kinda a moot point as modern java editors can present a combined view of tests and packages.</description>
     </item>
     
     <item>
       <title>advanced tdd with unclebob day one</title>
-      <link>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-unclebob-day-one/</link>
+      <link>http://brianjriddle.github.io/posts/2010/03/advanced-tdd-with-unclebob-day-one/</link>
       <pubDate>Mon, 15 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2010/03/advanced-tdd-with-unclebob-day-one/</guid>
+      <guid>http://brianjriddle.github.io/posts/2010/03/advanced-tdd-with-unclebob-day-one/</guid>
       <description>The day started with our first lesson in quantum mechanics. If you have read anything of what unclebob has written before you know that he loves physics, space and starting with a tangential subject to start off any topic.
 After that we went introduce ourself name, language(java/c#/c++), our experiences with TDD our companies. From the introductions he mad a mind map and addressed the different subjects that came up such as &amp;ldquo;only me&amp;rdquo;, &amp;ldquo;TDD Taliban&amp;rdquo;, &amp;ldquo;bad legacy code&amp;rdquo;, &amp;ldquo;no TDD allowed&amp;rdquo;, etc.</description>
     </item>

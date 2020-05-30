@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012-04 on brianjriddle</title>
-    <link>http://brianjriddle.riddle.se/posts/2012-04/</link>
+    <link>http://brianjriddle.github.io/posts/2012-04/</link>
     <description>Recent content in 2012-04 on brianjriddle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>se</language>
     <lastBuildDate>Mon, 23 Apr 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://brianjriddle.riddle.se/posts/2012-04/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://brianjriddle.github.io/posts/2012-04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>move to s3</title>
-      <link>http://brianjriddle.riddle.se/posts/2012/04/move-to-s3/</link>
+      <link>http://brianjriddle.github.io/posts/2012/04/move-to-s3/</link>
       <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2012/04/move-to-s3/</guid>
+      <guid>http://brianjriddle.github.io/posts/2012/04/move-to-s3/</guid>
       <description>It&amp;rsquo;s been a long time since anything appeared but hopefully that has changed as I have moved the hosting of this blog to S3. My current hosting provider was a big hinder for me to update this blog using FTP. Have been wanting to move to S3 since august 2011 as that&amp;rsquo;s when S3 made it possible to host static sites easy.
 Why didn&amp;rsquo;t I move to Wordpress or another blog system from jekyll?</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2015 on brianjriddle</title>
-    <link>http://brianjriddle.riddle.se/posts/2015/</link>
+    <link>http://brianjriddle.github.io/posts/2015/</link>
     <description>Recent content in 2015 on brianjriddle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>se</language>
     <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://brianjriddle.riddle.se/posts/2015/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://brianjriddle.github.io/posts/2015/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>java these days</title>
-      <link>http://brianjriddle.riddle.se/posts/2015/11/java-these-days/</link>
+      <link>http://brianjriddle.github.io/posts/2015/11/java-these-days/</link>
       <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2015/11/java-these-days/</guid>
+      <guid>http://brianjriddle.github.io/posts/2015/11/java-these-days/</guid>
       <description>Jag fick frågan har om dagen om j2ee mina tänker omkring detta. Jag måste erkänna att när jag började fundera på j2ee kom jag på hur lite jag faktiskt använder av detta alls nu förtiden. Ut över webapplikationer det är inte mycket tack vare spring och de tools som har vuxit fram de senaste 5 år.
 Hur som helst here it goes.
 Jag jobbar med &amp;ldquo;j2ee&amp;rdquo; dagligen men använder en extremt liten del av &amp;ldquo;j2ee&amp;rdquo; hos min nuvarande arbetsgivare.</description>
@@ -24,10 +24,10 @@ Jag jobbar med &amp;ldquo;j2ee&amp;rdquo; dagligen men använder en extremt lite
     
     <item>
       <title>moving to hugo</title>
-      <link>http://brianjriddle.riddle.se/posts/2015/04/moving-to-hugo/</link>
+      <link>http://brianjriddle.github.io/posts/2015/04/moving-to-hugo/</link>
       <pubDate>Sat, 04 Apr 2015 15:45:07 +0200</pubDate>
       
-      <guid>http://brianjriddle.riddle.se/posts/2015/04/moving-to-hugo/</guid>
+      <guid>http://brianjriddle.github.io/posts/2015/04/moving-to-hugo/</guid>
       <description>since i started blogging a little over 5 years ago i have used jekyll to render this blog. jekyll is a static blog engine that allows one to write post in markdown. Since i don&amp;rsquo;t blog that much it was a small yak shave every time i did blog as jekyll changed enough in the times between eẃhen i did blog as it was a slight hassle.
 A couple of weeks ago I was helping a colleague get a small interal blog set up but the amount of frustration we had getting it up and running was way more than was necessary.</description>
     </item>
